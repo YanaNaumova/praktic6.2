@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  overflow-y: auto;
+  max-height: 800px;
+}
+
+.btn {
+  background-color: rgb(135, 204, 204);
+  padding: 5px 10px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+}
+
+.numerPage {
+  text-align: center;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
